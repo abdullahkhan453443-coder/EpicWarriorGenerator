@@ -215,7 +215,7 @@ fun AppContent() {
                     errorMessage = null
                     try {
                         val response = RetrofitInstance.api.generateImage(
-                            "Bearer YOUR_HUGGING_FACE_API_TOKEN_HERE", // Replace with your token
+                            "Bearer MainActivity.kt", // Replace with your token
                             mapOf("inputs" to prompt.text)
                         )
                         imageUrl = response // Assuming response is a URL string
